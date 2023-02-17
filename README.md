@@ -23,10 +23,10 @@ Once you have set up the stack and configured your application to send data to t
 
 To configure the APM Server URL, secret token, and service name used to identify the microservice, export the following environment variables, so they will get picked up by your application:
 
-```console
-export ELASTIC\_APM\_SERVER\_URL=https://-------:443
-export ELASTIC\_APM\_SECRET\_TOKEN=-----------------
-export ELASTIC\_APM\_SERVICE\_NAME=any\_name
+```sh
+export ELASTIC_APM_SERVER_URL=https://-------:443
+export ELASTIC_APM_SECRET_TOKEN=-----------------
+export ELASTIC_APM_SERVICE_NAME=any_name
 ```
 
 After implementing all the features below in the blog, your APM dashboard should look like this
