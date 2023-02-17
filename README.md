@@ -26,7 +26,7 @@ Once you have set up the stack and configured your application to send data to t
 
 To configure the APM Server URL, secret token, and service name used to identify the microservice, export the following environment variables, so they will get picked up by your application:
 
-```
+```console
 export ELASTIC\_APM\_SERVER\_URL=https://-------:443
 export ELASTIC\_APM\_SECRET\_TOKEN=-----------------
 export ELASTIC\_APM\_SERVICE\_NAME=any\_name
@@ -39,7 +39,7 @@ After implementing all the features below in the blog, your APM dashboard should
 
 The Elastic APM Go agent supplies a number of modules for instrumenting various web frameworks, RPC frameworks, and database drivers; and for integrating with several logging frameworks. Check out the [full list of the supported technologies](https://www.elastic.co/guide/en/apm/agent/go/1.x/supported-tech.html).
 
-```
+```go
 package main
 import (
  "fmt"
@@ -77,7 +77,7 @@ func main() {
 **SQL Queries**
 ===============
 
-```
+```go
 package main
 
 import (
@@ -132,7 +132,7 @@ func main() {
 **Tracing outgoing HTTP**
 =========================
 
-```
+```go
 package main
 
 import (
@@ -186,7 +186,7 @@ func main() {
 **Tracing custom spans**
 ========================
 
-```
+```go
 package main
 
 import (
@@ -245,7 +245,7 @@ ctx := c.Request.Context()
 **Adding custom parameters to trace**
 =====================================
 
-```
+```go
 package main
 
 import (
