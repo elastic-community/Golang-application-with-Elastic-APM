@@ -20,6 +20,10 @@ Elastic APM consists of four components:
 
 There are two ways that these four components can be integrated, we are going to discuss one way in which APM agents on edge machines send data to a centrally hosted APM integration. APM agents are basically a software package that will be installed in all the services which you want to monitor. APM agent will collect the log and send it to the APM integration, and finally, we can visualize the data in Kibana.
 
+![image](https://user-images.githubusercontent.com/5631542/219538063-b5cb3ecb-5f51-4eb9-a8da-e19e340d4321.png)
+
+
+
 Set up the APM server and Fleet by following the steps in the official [documentation](https://www.elastic.co/guide/en/apm/guide/current/apm-quick-start.html).
 
 Once you have set up the stack and configured your application to send data to the APM Server. You will need to know the APM Server’s URL and secret token. The APM Go agent is configured via environment variables.
@@ -33,6 +37,9 @@ export ELASTIC\_APM\_SERVICE\_NAME=any\_name
 ```
 
 After implementing all the features below in the blog, your APM dashboard should look like this
+
+![image](https://user-images.githubusercontent.com/5631542/219538141-dc457d6b-8100-420d-822f-3ebfe564b586.png)
+
 
 **Tracing Web requests**
 ========================
@@ -288,6 +295,8 @@ func main() {
  s.ListenAndServe()
 }
 ```
+
+![image](https://user-images.githubusercontent.com/5631542/219538195-32af7bca-aa79-4945-afd2-8c17895e6784.png)
 
 **Conclusion**
 ==============
