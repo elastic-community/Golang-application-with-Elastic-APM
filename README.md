@@ -1,10 +1,7 @@
+Author
+
 [![Sadham Hussian M](https://miro.medium.com/fit/c/96/96/1*brrZFIIEnEvjw1yTvqRZ4Q.jpeg)
-
-](https://medium.com/@sadhamhussian2020?source=post_page-----220899261e46--------------------------------)[Sadham Hussian M](https://medium.com/@sadhamhussian2020?source=post_page-----220899261e46--------------------------------)Follow
-
-Jan 28
-
-·5 min read
+Sadham Hussian M
 
 Application Monitoring in Golang application with Elastic APM
 =============================================================
